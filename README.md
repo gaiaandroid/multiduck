@@ -1,3 +1,9 @@
+# Colyseus+Godot experiments
+
+This project aims to provide a monorepo for a colyseus server plus a godot client, with a working lobby and an example room.
+
+The intent is to boostrap multiplayer game building for jams and the like.
+
 # Welcome to Colyseus!
 
 This project has been created using [⚔️ `create-colyseus-app`](https://github.com/colyseus/create-colyseus-app/) - an npm init template for kick starting a Colyseus project in TypeScript.
