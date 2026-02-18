@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ci80mo7exb0ys"]
 
-[ext_resource type="Script" uid="uid://cevubsnaqrvwu" path="res://src/test_colyseus.gd" id="1_vvwxv"]
+[ext_resource type="PackedScene" uid="uid://ceqab8i8yqmjj" path="res://addons/godot_colyseus/demo/main.tscn" id="1_vvwxv"]
 
 [node name="test-colyseus" type="Node2D" unique_id=1234926712]
-script = ExtResource("1_vvwxv")
+
+[node name="Node2D" parent="." unique_id=2022839309 instance=ExtResource("1_vvwxv")]
